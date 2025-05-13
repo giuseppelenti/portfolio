@@ -1743,7 +1743,9 @@ p {
 }
 
 @media (max-width: 576px) {
-
+.content{
+    height: 95vh;
+}
         .hero-cta {
         flex-direction: column;
         gap: var(--spacing-sm);
