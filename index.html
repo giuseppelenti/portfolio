@@ -1,0 +1,619 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UX/UI Designer Portfolio - Showcasing minimalist web design with subtle gaming and cinema influences">
+    <title>Portfolio | UX/UI &amp; Web Designer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+<style>
+        .custom-cursor {
+            position: fixed;
+            width: 8px;
+            height: 8px;
+            background-color: var(--color-accent);
+            border-radius: 50%;
+            pointer-events: none;
+            opacity: 0.5;
+            z-index: 9999;
+            transform: translate(-50%, -50%);
+            transition: transform 0.1s ease, opacity 0.3s ease;
+        }
+        
+        .custom-cursor::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            background-color: var(--color-accent);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.2;
+            transition: all 0.2s ease;
+        }
+        
+        .custom-cursor.active {
+            transform: translate(-50%, -50%) scale(1.5);
+        }
+    </style><style>
+        .typing-cursor {
+            display: inline-block;
+            width: 3px;
+            background-color: var(--color-accent);
+            animation: blink 1s infinite;
+            margin-left: 2px;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style><link rel="stylesheet" href="chrome-extension://ihcjicgdanjaechkgeegckofjjedodee/app/content-style.css"></head>
+<body>
+  <section>
+  <div class="wave">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+<nav class="bounce-in-top navbar position-fixed navbar-expand-lg bg-hero">
+<ul class=nav>
+<li class=nav-item><a class="nav-link mb-5" href=#home><img src=./img/home.png alt=Home></a></li>
+<li class=nav-item><a class="nav-link mb-5" href=#projects><img src=./img/folder.png alt=About></a></li>
+<li class=nav-item><a class="nav-link mb-5" href=#about><img src=./img/user.png alt=Portfolio></a></li>
+<li class=nav-item><a class="nav-link mb-5" href=#contact><img src=./img/mail.png alt=Contact></a></li>
+</ul>
+<div class=active-dot></div>
+</nav>
+
+    <main>
+        
+<section id="home" class="content">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="animate-text">Hi! I'm Giuseppe Lenti<span class="typing-cursor">_</span></h1>
+            <p class="hero-subtitle">Welcome to my website.
+My avatar will take you through my website</p>
+            <div class="hero-cta">
+                <a href="./Pdf/CV_Giuseppe_Lenti_eng.pdf" class="btn btn-primary">Download resume</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+             <div class="hero-avatar">
+              <img src="img/avatar.gif" alt="">
+             </div>
+
+        </div>
+    </div>
+</section>
+</section>
+
+<section id="projects" class="featured-work">
+    <div class="container">
+        <h2 class="section-title">My projects</h2>
+        
+        <div class="projects-wrapper">
+            <!-- Project 1 -->
+            <article class="project-item" data-category="ux-ui web">
+                <div class="project-image">
+                    <img src="./img/project_3.webp" alt="Minimalist Dashboard Design">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Portfolio Website HYML & CSS</h3>
+                            <p>UX/UI Design • Web Design</p>
+                            <a href="#project-1" class="view-project">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Project 2 -->
+            <article class="project-item" data-category="ux-ui web">
+                <div class="project-image">
+                    <img src="./img/project_2.webp" alt="E-commerce Redesign">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Copywriting "Il Vestito Verde"</h3>
+                            <p>Coywriting</p>
+                            <a href="#project-2" class="view-project">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Project 3 -->
+            <article class="project-item" data-category="ux-ui web gaming">
+                <div class="project-image">
+                    <img src="./img/project_4.png" alt="Game-Inspired Web App">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Brand identity MeditActive</h3>
+                            <p>UX/UI Design • Graphic Design</p>
+                            <a href="#project-3" class="view-project">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Project 4 -->
+                         <!-- Project 3 -->
+            <article class="project-item" data-category="ux-ui web gaming">
+                <div class="project-image">
+                    <img src="./img/project_1.jpg" alt="Game-Inspired Web App">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Landing Page analysis</h3>
+                            <p>UX/UI Design • Graphic Design</p>
+                            <a href="#project-4" class="view-project">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="about" class="about-intro">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="about-image">
+                <!-- Using a placeholder SVG profile silhouette instead of a photo -->
+                <img src="img/avatar_2_.gif" alt="Profile Image" class="profile-image">
+                    <rect width="400" height="400" fill="#f8f9fa"></rect>
+                    <circle cx="200" cy="150" r="80" fill="#6C63FF" opacity="0.8"></circle>
+                    <path d="M200,250 C120,250 60,310 60,390 L340,390 C340,310 280,250 200,250 Z" fill="#6C63FF" opacity="0.6"></path>
+                </svg>
+            </div>
+            <div class="about-content">
+                <h2>Hello, I'm <span class="highlight">Giuseppe</span></h2>
+                <p class="lead">I'm a UX/UI and web designer specializing in creating clean, minimalist digital experiences that balance form and function.</p>
+                <p>With over 8 years of design experience, I've worked with clients ranging from startups to established brands, helping them communicate their vision through thoughtful design. My approach combines careful attention to user needs with clean aesthetics influenced by my passion for gaming and cinema.</p>
+                <p>When I'm not designing, you'll find me exploring new games for inspiration or analyzing the visual storytelling in my favorite films.</p>
+                <!--
+                <div class="about-interests">
+                    <div class="interest">
+                        <div class="interest-icon">
+                            <img src="/static/svg/gaming_icon.svg" alt="Gaming Icon">
+                        </div>
+                        
+                        <div class="interest-text">
+                            <h4>Gaming</h4>
+                            <p>Inspired by UIs from Persona 5, Death Stranding, and Cyberpunk 2077</p>
+                        </div>
+                    </div>
+                    <div class="interest">
+                        <div class="interest-icon">
+                            <img src="/static/svg/cinema_icon.svg" alt="Cinema Icon">
+                        </div>
+                        <div class="interest-text">
+                            <h4>Cinema</h4>
+                            <p>Influenced by visual compositions from Wes Anderson and Denis Villeneuve</p>
+                        </div>
+                    </div>
+                </div>
+              -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="skills" class="skills-section">
+    <div class="animated-bg">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-wrapper">
+            <div class="skill-category">
+                <h3>Design Tools</h3>
+                <ul class="skills-list">
+                    <li>
+                        <span class="skill-name">Adobe Illustrator</span>
+                        <span class="skill-level"><span class="skill-progress" style="width: 90%; --width: Adobe Illustrator;"></span></span>
+                        <span class="skill-percent">90%</span>
+                    </li>
+                    <li>
+                        <span class="skill-name">Figma</span>
+                        <span class="skill-level"><span class="skill-progress" style="width: 95%; --width: Figma;"></span></span>
+                        <span class="skill-percent">95%</span>
+                    </li>
+                    <li>
+                        <span class="skill-name">Adobe Photoshop</span>
+                        <span class="skill-level"><span class="skill-progress" style="width: 85%; --width: Adobe Photoshop;"></span></span>
+                        <span class="skill-percent">85%</span>
+                    </li>
+                    <li>
+                        <span class="skill-name">Canva</span>
+                        <span class="skill-level"><span class="skill-progress" style="width: 80%; --width: Sketch;"></span></span>
+                        <span class="skill-percent">80%</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Development</h3>
+                <ul class="skills-list">
+                    <li>
+                        <span class="skill-name">HTML</span>
+                        <span class="skill-level"><span class="skill-progress" style="width: 95%; --width: HTML;"></span></span>
+                        <span class="skill-percent">95%</span>
+                    </li>
+                    <li>
+                        <span class="skill-name">CSS</span>
+                        <span class="skill-level"><span class="skill-progress" style="width: 90%; --width: CSS;"></span></span>
+                        <span class="skill-percent">90%</span>
+                    </li>
+                    <li>
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-level"><span class="skill-progress" style="width: 75%; --width: JavaScript;"></span></span>
+                        <span class="skill-percent">75%</span>
+                    </li>
+                    <li>
+                        <span class="skill-name">Java</span>
+                        <span class="skill-level"><span class="skill-progress" style="width: 70%; --width: React;"></span></span>
+                        <span class="skill-percent">70%</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-flex">
+          <!--
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out through any of these channels or use the form to send me a message.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p><a href="mailto:hello@portfolio.com">hello@portfolio.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+11234567890">+1 (123) 456-7890</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>San Francisco, CA</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <h4>Connect With Me</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Dribbble" class="social-icon"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" aria-label="Behance" class="social-icon"><i class="fab fa-behance"></i></a>
+                        <a href="#" aria-label="LinkedIn" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+          -->
+            <div class="contact-form-container">
+                
+                
+                              <div class="avatar_4">
+            <img src="img/avatar_3_2.gif" alt="" width="200px" height="200px">
+          </div>
+
+                
+                
+<form class="contact-form" id="contact-form">
+  <div class="form-group">
+    <label for="name">Your Name *</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Your Email *</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+
+  <div class="form-group full-width">
+    <label for="message">Your Message *</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+  </div>
+
+  <div class="form-group full-width">
+    <button type="button" class="btn btn-primary" id="send-button">Send Message</button>
+  </div>
+</form>
+         </div>
+        </div>
+    </div>
+</section>
+
+<!-- Detailed Case Studies (Hidden by default, shown when clicking on a project) -->
+<div class="case-study-modal" id="project-1">
+    <div class="case-study-content">
+        <button class="close-modal"><i class="fas fa-times"></i></button>
+        <div class="case-study-header">
+            <h2>Minimalist Dashboard Design</h2>
+            <div class="case-meta">
+                <span>UX/UI Design</span>
+                <span>Web Design</span>
+                <span>2023</span>
+            </div>
+        </div>
+        
+        <div class="case-study-body">
+            <div class="case-hero-image">
+                <img src="img/project_3.webp" alt="Minimalist Dashboard Design">
+            </div>
+            
+            <div class="case-intro">
+                <h3>Project Overview</h3>
+                <p>A personal portfolio website designed and developed as part of the UX/UI Design course by Start2Impact. The goal was to create a professional digital space to showcase my projects, design process, and personal brand.</p>
+            </div>
+            
+            <div class="case-details">
+                <div class="case-section">
+                    <h3>Challenge</h3>
+                    <p>Building a portfolio that not only reflects my design skills but also demonstrates a clear and thoughtful user experience. I aimed to balance creativity with functionality, making the site visually engaging while ensuring usability across devices.</p>
+                </div>
+                
+                <div class="case-section">
+                    <h3>Approach</h3>
+                    <p>The project followed a structured design process:
+
+</p>
+                    <ul>
+                        <li>Wireframing: Created low-fidelity wireframes in Figma to plan content hierarchy and navigation flow
+
+</li>
+                        <li>UI Design: Developed a complete visual layout with consistent typography, color palette, and custom components</li>
+                        <li>Development: Built the site using HTML, CSS, and JavaScript, focusing on responsiveness, accessibility, and clean animations
+
+</li>
+                        <li>Mobile-first responsive design</li>
+                                        </div>
+                    <div class="case-section">
+                        <h3>Key features include:</h3>
+                        <li>Smooth scrolling and animated section transitions
+
+</li>
+                        <li>Responsive grid system for mobile and desktop
+
+</li>
+                        <li>Downloadable CV and project filters
+
+</li>
+                    </ul>
+                </div>
+                <div class="case-download">
+                  <button><a href="Pdf/Progetto HTML e CSS di Giuseppe_Lenti.pdf">Download</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="case-study-modal" id="project-2">
+    <div class="case-study-content">
+        <button class="close-modal"><i class="fas fa-times"></i></button>
+        <div class="case-study-header">
+            <h2>E-commerce Redesign</h2>
+            <div class="case-meta">
+                <span>UX/UI Design</span>
+                <span>Web Design</span>
+                <span>2023</span>
+            </div>
+        </div>
+        
+        <div class="case-study-body">
+            <div class="case-hero-image">
+                <img src="img/project_2.webp" alt="E-commerce Redesign">
+            </div>
+            
+            <div class="case-intro">
+                <h3>Project Overview</h3>
+                <p>As part of the UX/UI Design course at Start2Impact, I completed a copywriting project that involved writing a blog article on the topic of fast fashion for <em>"Il Vestito Verde"</em>, a platform focused on ethical fashion.</p>
+            </div>
+            
+            <div class="case-details">
+                <div class="case-section">
+                    <h3>Challenge</h3>
+                    <p>The challenge was to create an informative, persuasive, and engaging article that raises awareness about the environmental and social impacts of fast fashion—while aligning with the tone and values of the hosting blog.</p>
+                </div>
+                
+                <div class="case-section">
+                    <h3>Approach</h3>
+                    <p>I applied copywriting techniques learned during the course to structure and shape the article:
+
+</p>
+                    <ul>
+                        <li>Headline Optimization: A compelling title designed to spark curiosity and invite clicks
+
+</li>
+                        <li>Storytelling: Built a narrative around a relatable, real-life scenario to hook the reader</li>
+                        <li>Value Proposition: Highlighted the consequences of fast fashion and proposed mindful alternatives
+
+</li>
+                        <li>Emotional Triggers: Used persuasive language to evoke empathy and prompt reflection</li>
+                        <li>Call to Action: Closed the article with a clear, motivating invitation to change consumer habits</li>
+                                        </div>
+                <div class="case-download">
+                  <button><a href="Pdf/Progetto_Copwriting_Il_Vestito_Verde_di_Giuseppe_Lenti.pdf">Download</a></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="case-study-modal" id="project-3">
+    <div class="case-study-content">
+        <button class="close-modal"><i class="fas fa-times"></i></button>
+        <div class="case-study-header">
+            <h2>Game-Inspired Web App</h2>
+            <div class="case-meta">
+                <span>UX/UI Design</span>
+                <span>Gaming Elements</span>
+                <span>2023</span>
+            </div>
+        </div>
+        
+        <div class="case-study-body">
+            <div class="case-hero-image">
+                <img src="img/project_4.png" alt="Game-Inspired Web App">
+            </div>
+            
+            <div class="case-intro">
+                <h3>Project Overview</h3>
+                <p>Brand identity development for a meditation app designed to evoke calm, balance, and inner connection. The project included logo creation, the definition of a consistent font and color palette, and a custom icon set for the app’s UI.
+
+</p>
+            </div>
+            
+            <div class="case-details">
+                <div class="case-section">
+                    <h3>Challenge</h3>
+                    <p>Visually translating concepts like serenity, mindfulness, and wellness into a distinctive and memorable brand identity. The client wanted to avoid clichés and stand out from typical meditation apps with something more authentic and refined.</p>
+                </div>
+                
+                <div class="case-section">
+                    <h3>Approach</h3>
+                    <p>I started with research into wellness aesthetics and the visual preferences of the target audience. My design decisions included:</p>
+                    <ul>
+                        <li>A minimalist logo built on soft, symmetrical shapes
+
+</li>
+                        <li>A natural color palette (sage green, warm beige, powder blue)</li>
+                        <li>Modern, slightly organic typefaces to enhance readability and convey calmness</li>
+                        <li>A custom set of rounded, line-based icons tailored for the app interface
+
+</li>
+                    </ul>
+                </div>
+                
+                 <div class="case-download">
+                  <button><a href="Pdf/Progetto_Grafica_Giuseppe_Lenti_.pdf">Download</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="case-study-modal" id="project-4">
+    <div class="case-study-content">
+        <button class="close-modal"><i class="fas fa-times"></i></button>
+        <div class="case-study-header">
+            <h2>Mobile App Design</h2>
+            <div class="case-meta">
+                <span>UX/UI Design</span>
+                <span>Mobile</span>
+                <span>2022</span>
+            </div>
+        </div>
+        
+        <div class="case-study-body">
+            <div class="case-hero-image">
+                <img src="img/project_1.jpg" alt="Mobile App Design">
+            </div>
+            
+            <div class="case-intro">
+                <h3>Project Overview</h3>
+                <p>As an introductory project for the UX/UI Design course at Start2Impact, I analyzed the landing page of the website Last Minute Sotto Casa, a platform aimed at reducing food waste by promoting local offers.</p>
+            </div>
+            
+            <div class="case-details">
+                <div class="case-section">
+                    <h3>Challenge</h3>
+                    <p>The task was to identify usability issues and improvement opportunities in the current landing page while maintaining the original mission and goals of the platform.</p>
+                </div>
+                
+                <div class="case-section">
+                    <h3>Approach</h3>
+                    <p>I carried out a UX analysis focusing on:</p>
+                    <ul>
+                        <li><strong>Strengths and Weaknesses</strong>: Assessed layout, navigation, messaging, and visual hierarchy</li>
+                        <li><strong>User Goals vs. Business Goals</strong>: Evaluated how effectively the website communicates its value to both users and partners</li>
+                        <li><strong>Wireframe Redesign</strong>: Proposed a low-fidelity wireframe that improved clarity, user flow, and call-to-action visibility</li>
+                        <li><strong>UX Principles</strong>: Applied core UX concepts such as visual hierarchy, accessibility, and consistency</li>
+                    </ul>
+                </div>
+                                 <div class="case-download">
+                  <button><a href="Pdf/Progetto_Introduttivo_UXUI_Design_Giuseppe_Lenti.pdf">Download</a></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+          
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/peppelenti_/" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Behance" class="social-icon"><i class="fab fa-behance"></i></a>
+                    <a href="https://www.linkedin.com/in/giuseppe-lenti-/" aria-label="LinkedIn" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:peppe.lenti@virgilio.it" aria-label="Mail" class="social-icon"><i class="fa fa-envelope"></i></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>© 2023 Portfolio. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JS -->
+<script src="js/main.js"></script>
+
+    
+<script src="js/animation.js"></script>
+<script src="js/gallery.js"></script>
+<script src=https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js></script>
+
+<div class="custom-cursor" style="left: 1151px; top: 590px; opacity: 0;"></div>
+</body>
+</html>
