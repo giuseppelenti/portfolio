@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4vw;
     margin-bottom: var(--spacing-md);
 }
 
@@ -203,9 +203,6 @@ p {
     width: 100%;
 }
 
-#home h1{
-    font-size: 3.5rem;
-}
 
 
 .container {
@@ -1718,11 +1715,10 @@ p {
     .hero-cta {
         flex-direction: column;
         gap: var(--spacing-sm);
-        align-items: center;
     }
     
     .hero-cta .btn {
-        width: 50%;
+        width: 100%;
     }
     
     .about-cta {
@@ -1736,30 +1732,12 @@ p {
     .site-footer{
         height: 15rem;
     }
-    #home h1{
-    font-size: 2.5rem;
-}
-
 }
 
 @media (max-width: 576px) {
-.content{
-    height: 95vh;
-}
-        .hero-cta {
-        flex-direction: column;
-        gap: var(--spacing-sm);
-        align-items: center;
+    .content{
+        height: 95vh;
     }
-    
-    .hero-cta .btn {
-        width: 50%;
-    }
-
-
-#home h1{
-    font-size: 1.8rem;
-}
 
   .avatar_4{
     width: 120px;
