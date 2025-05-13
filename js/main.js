@@ -309,6 +309,7 @@ function updateActiveNav() {
     });
 }
 
+
 // Aggiungi gli eventi per aggiornare l'active-dot
 window.addEventListener("scroll", updateActiveNav);
 navLinks.forEach(link => {

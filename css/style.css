@@ -1609,7 +1609,7 @@ p {
         opacity: 1;
         transform: translateY(0);
     }
-}
+}.highlight{background-color:#e0096e;color:#fff}
 
 /* ===== RESPONSIVE STYLES ===== */
 @media (max-width: 992px) {
@@ -1648,6 +1648,9 @@ p {
 }
 
 @media (max-width: 768px) {
+    .custom-cursor{
+        display: none;
+    }
   .active-dot{width:5px;height:5px;top:calc(100% + 5px);left:50%;transform:translate(-50%, -150%)}
    .avatar_4{
     width: 150px;
@@ -1720,9 +1723,14 @@ p {
     .about-cta .btn {
         width: 100%;
     }
+    .site-footer{
+        height: 15rem;
+    }
 }
 
 @media (max-width: 576px) {
+
+
   .avatar_4{
     width: 120px;
     left: -2rem;
@@ -1759,4 +1767,11 @@ p {
         margin: 20px auto;
         padding: var(--spacing-sm);
     }
+    .projects-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+}
+
 }
