@@ -937,7 +937,7 @@ p {
     overflow: hidden;
 }
 
-.about-content h2 {
+.about-content h3 {
     margin-bottom: var(--spacing-md);
 }
 
