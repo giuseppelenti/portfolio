@@ -191,7 +191,7 @@ function initTextTypewriter() {
     // Create a span for the cursor
     const cursorSpan = document.createElement('span');
     cursorSpan.classList.add('typing-cursor');
-    cursorSpan.textContent = '.  ';
+    cursorSpan.textContent = '  ';
     
     // Create the cursor style dynamically
     const style = document.createElement('style');

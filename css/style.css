@@ -1659,6 +1659,9 @@ p {
 }
 
 @media (max-width: 768px) {
+    .typing-cursor{
+        height: 2.5rem;
+    }
     .custom-cursor{
         display: none;
     }
