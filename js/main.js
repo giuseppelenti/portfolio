@@ -338,3 +338,19 @@ navLinks.forEach(link => {
 
 // Inizializza la posizione dell'active-dot
 updateActiveNav();
+ document.addEventListener("DOMContentLoaded", function () {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          observer.unobserve(entry.target); // Rimuovi se vuoi che si ripeta ogni volta
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    document.querySelectorAll('.fade-up').forEach(el => {
+      observer.observe(el);
+    });
+  });
